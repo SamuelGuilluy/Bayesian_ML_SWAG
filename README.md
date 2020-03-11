@@ -10,4 +10,4 @@ We provide three jupyter notebook :
 
 2.   NLP_comparasion_optimizer_AG_NEWS.ipynb contains a classification model on the AG NEWS Dataset of 4 optimizers : SGD + Step LR Scheduler, Adagrad, SGD + Cosine Scheduler.
 
-3.   plot_the_results.ipynb which read the csv files and plot the results.
+3.   plot_the_results.ipynb which read the csv files and plot the results. The resulting figures are saved in the folder : ./figures
