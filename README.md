@@ -29,7 +29,9 @@ The path to the folders need to be updated in the all_nlp_file.py and all_nlp_fi
 In order to test SWAG on different hyperparameters, you can modify the parameters from the dictionnary 'dictionnary_arguments' wich is on top of two python files. 
 The results will be save in the "optimizer_results" folder.
 
-The ./results 
+The ./main_folder/results store the parameters of our models at a given epoch frequence
+
+The ./main_folder/swag floder contains the model of the SWAG class. It comes from https://github.com/wjmaddox/swa_gaussian but many functions are adjusted in order to match with our data requirements.
 
 As a reminder of the main parameters : 
   - epochs : number of epochs
